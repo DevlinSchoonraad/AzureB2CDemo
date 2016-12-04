@@ -1,0 +1,51 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign up</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- TODO: favicon -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://marcodesanctis.blob.core.windows.net/customiseb2c/CustomLayout.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://localhost:44368/">Application name</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="https://localhost:44368/">Home</a></li>
+                    <li><a href="https://localhost:44368/Home/Claims">Claims</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://localhost:44368/Account/SignIn" id="loginLink">Sign in</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container self_asserted_container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h3 class="text-center">Sign up with a new account</h3>
+                        <div id="api" data-name="SelfAsserted">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
